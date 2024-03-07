@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Teste-Mobiauto",
+    "slug": "Teste-Mobiauto",
+    "version": "1.0.0",
+    "scheme": "localhost",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./src/assets/images/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.teste.mobiauto"
+    },
+    "android": {
+      "package": "com.teste.mobiauto"
+    }
+  }
+}

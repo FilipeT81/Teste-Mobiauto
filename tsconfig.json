@@ -1,0 +1,71 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "jsx": "react-native",
+    "allowJs": true,
+    "strict": true,
+    "rootDir": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@contexts/*": [
+        "./src/contexts/*"
+      ],
+      "@helpers/*": [
+        "./src/global/helpers/*"
+      ],
+      "@styles/*": [
+        "./src/global/styles/*"
+      ],
+      "@types/*": [
+        "./src/types/*"
+      ],
+      "@atoms/*": [
+        "./src/components/atoms/*"
+      ],
+      "@molecules/*": [
+        "./src/components/molecules/*"
+      ],
+      "@organisms/*": [
+        "./src/components/organisms/*"
+      ],
+      "@templates/*": [
+        "./src/components/templates/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@storage/*": [
+        "./src/storage/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@states/*": [
+        "./src/states/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ]
+    }
+  },
+  "typeRoots": [
+    "./src/types"
+  ],
+  "esModuleInterop": true,
+  "include": [
+    ".eslintrc.js",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": []
+}

@@ -20,7 +20,7 @@ import {
 
 import index from "@styles/Theme";
 import Routes from "@routes/index";
-import { LoadingContainer } from "@molecules/LoadingContainer";
+import { LoadingContainer } from "@src/components/LoadingContainer";
 import { AxiosInterceptor } from "./services/api";
 
 export default function App() {

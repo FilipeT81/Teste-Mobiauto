@@ -8,23 +8,23 @@ import {
 } from "./styles";
 import { StackNavigationProp } from "@react-navigation/stack/src/types";
 import { ParamListBase } from "@react-navigation/native";
-import LogoTitle from "@src/components/atoms/LogoTitle";
-import RoundedContainer from "@src/components/atoms/RoundedContainer";
-import Text from "@src/components/atoms/Text";
+import LogoTitle from "@src/components/LogoTitle";
+import RoundedContainer from "@src/components/RoundedContainer";
+import Text from "@src/components/Text";
 import { BrandsResponse, getAllBrands } from "@src/services/Brands/brands";
 import Toast from "react-native-toast-message";
-import LoadingContainer from "@src/components/molecules/LoadingContainer";
-import { Picker } from "@src/components/atoms/Picker";
+import LoadingContainer from "@src/components/LoadingContainer";
+import { Picker } from "@src/components/Picker";
 import { ModelsResponse, getModels } from "@src/services/ModelCar/models";
 import { YearsResponse, getYears } from "@src/services/Year/years";
-import Button from "@src/components/atoms/Button";
+import Button from "@src/components/Button";
 import {
   FipeVehicleResponse,
   getFipeVehicle,
 } from "@src/services/FipeVehicle/vehicle";
-import CustomModal from "@src/components/atoms/Modal";
-import InfoTextModal from "@src/components/atoms/InfoTextModal";
-import Flex from "@src/components/atoms/Flex";
+import CustomModal from "@src/components/Modal";
+import InfoTextModal from "@src/components/InfoTextModal";
+import Flex from "@src/components/Flex";
 import { useTheme } from "styled-components/native";
 interface Props {
   navigation: StackNavigationProp<ParamListBase>;
@@ -140,7 +140,7 @@ const Home: React.FC<Props> = ({}) => {
             type="collapsableBold"
             textAlign="center"
           />
-          <Flex pv={20} />
+          <Flex pv={35} />
           <RoundedContainer />
           <FormContainer>
             <Text

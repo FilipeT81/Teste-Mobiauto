@@ -123,6 +123,7 @@ const PickerBase: ForwardRefRenderFunction<RNPickerSelect, Props> = (
             borderBottomColor: theme.colors.secondary,
             color: theme.colors.secondary,
             marginBottom: 14,
+            marginTop: 5,
           },
           inputIOS: {
             backgroundColor: isDisabled

@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import Text from '@atoms/Text';
+import Text from '@src/components/Text';
 import { TouchableOpacity } from 'react-native';
 
 export const Container = styled(GestureHandlerRootView)`

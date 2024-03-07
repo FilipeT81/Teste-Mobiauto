@@ -54,7 +54,7 @@ const AxiosInterceptor = ({ children }: Props) => {
             position: 'top',
           });
         }
-        if (error.response?.status >= 500) {
+        if (error.response?.status && error.response?.status >= 500) {
           Toast.show({
             type: 'error',
             text2: 'Serviço indisponível no momento, tente mais tarde!',
